@@ -1,4 +1,5 @@
 import React from 'react';
+
 import AppHeader from '../app-header';
 import SearchPanel from '../search-panel';
 import PostStatusFilter from '../post-status-filter';
@@ -11,7 +12,8 @@ const App = () => {
     const data = [
         {label: 'Going to learn React.', important: true, id: 1},
         {label: 'Started learning React.', important: false, id: 2},
-        {label: 'I make my life better!', important: false, id: 3}
+        {label: 'I make my life better!', important: false, id: 3},
+        512314
     ]
 
     return(
