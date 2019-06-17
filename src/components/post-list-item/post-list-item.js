@@ -19,7 +19,6 @@ export default class PostListItem extends Component {
                 {label}
             </span>
             <div className="d-flex justify-content-center align-items-center">
-
                <button type="button" 
                className="btn-star btn-sm"
                onClick={onToggleImportant}>

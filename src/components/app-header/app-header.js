@@ -15,11 +15,11 @@ h2 {
 }
 `
 
-const AppHeader = () => {
+const AppHeader = ({liked, allPosts, importants}) => {
     return (
         <Header>
             <h1>Mikhail Kormilitsyn</h1>
-            <h2>5 записей, из них понравилось 0</h2>
+            <h2>{allPosts} записей, из них понравилось {liked}, важных {importants}</h2>
         </Header>
     )  
 }
